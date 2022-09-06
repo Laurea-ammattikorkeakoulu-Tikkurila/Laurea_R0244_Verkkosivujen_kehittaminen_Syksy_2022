@@ -1,2 +1,2 @@
 # Laurea_R0244_Verkkosivujen_kehitt-minen_Syksy_2022
-Materiaalivarasto Verkkosivujen kehittäminen  R0244 opintojakolle
+Materiaalivarasto Verkkosivujen kehittäminen R0244 opintojakolle
