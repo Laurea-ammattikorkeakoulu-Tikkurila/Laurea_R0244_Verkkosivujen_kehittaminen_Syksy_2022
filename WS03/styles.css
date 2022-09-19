@@ -1,32 +1,27 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: gray;
 }
-
 h1 {
-  color: white;
-  text-align: center;
-  font-size: 20px ; 
-  color: lightgray;
+	color: blue;
 }
-
 p {
+  color: black;
+}
+
+ul.a {
+  list-style-type: circle;
+  color: yellow;
+}
+
+ul.b {
+  list-style-type: square;
   font-family: verdana;
-  font-size: 12px;
-  color:lightblue;
-  
 }
 
-div {
-	border-style: dotted;
-	font-family: verdana;
-  font-size: 12px;
-  color:white;
-  width:200px;
-  height:200px;
+ol.c {
+  list-style-type: upper-roman;
 }
 
-ul {
-	list-style-type:square;
-	color: yellow;
+ol.d {
+  list-style-type: lower-alpha;
 }
