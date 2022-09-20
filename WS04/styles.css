@@ -1,0 +1,47 @@
+body {
+	
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+  color: white;
+  background-image: url('./kuvat/taustakuva.jpg');
+}
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+  color: yellow;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 5px;
+}
+
+div {
+  border-width: 2px;
+  border-style: dotted;
+}
+
+.Teksti {
+  width: 50px;
+  height: 50px;
+}
+
+ol {
+  list-style: lower-alpha;
+}
+
+ul {
+  list-style: square;
+}
+
+#kuva1 {
+  padding-left: 50px;
+  margin: 5px;
+}
+
+#kuva2 {
+  padding-left: 15px;
+}
