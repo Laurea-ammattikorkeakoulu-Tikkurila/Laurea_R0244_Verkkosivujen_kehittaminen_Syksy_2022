@@ -1,3 +1,0 @@
-# Laurea_R0244_Verkkosivujen_kehittaminen_Syksy_2022
-
-Materiaalivarasto Verkkosivujen kehittäminen R0244 opintojakolle WS07
