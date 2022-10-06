@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <title>WEB basic 04B tehtävä</title>
+    </head>
+    <body>
+		<a href="index.html">Index HTML</a><br>
+		<a href="second.html">Second HTML</a><br>
+		<a href="layout.html">Layout HTML</a><br>
+	
+        <h1>Hello: tämä on second.html tiedosto!</h1>
+
+		<br>
+		<img src="kuvat/postimies.jpg" alt="postimiespate" id="kuva1" width="200" height="200">
+        <figure>
+            <img src="kuvat/puuhapete.jpg" alt="puuhapete" id="kuva2" width="200" height="200">
+            <figcaption>Puuhapete ja ystävät</figcaption>
+        </figure>
+        <label for="bar">motivaatio koulussa</label>
+        <progress id="bar" value="89" max="100"> 89% </progress>
+    </body>
+</html>
