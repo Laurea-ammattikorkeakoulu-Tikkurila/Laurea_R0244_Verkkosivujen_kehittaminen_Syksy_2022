@@ -1,1 +1,0 @@
-Tuntiharjoituksen kuvakansio
