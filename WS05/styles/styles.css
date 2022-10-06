@@ -1,0 +1,89 @@
+header,
+footer {
+  padding: 1em;
+  color: white;
+  background-color: #000080;
+  clear: left;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica;
+  border: 1px solid gray;
+  flex-direction: column;
+  height: fit-content; 
+}
+
+h1 {
+
+  text-align: center;
+}
+
+#toinen {
+  font-size: 16px;
+  color: blue;
+  text-align: center;
+}
+div.container {
+  width: 100%;
+}
+
+
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  max-width: auto;
+  background-color: #e0e0e9;
+  margin: 0;
+  padding: 1em;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+section {
+  float: left;
+  width: 65%;
+  border-right: 1px solid gray;
+  padding: 1em;
+  color: blue;
+  height: 230px;
+}
+article {
+  float: left;
+  width: 65%;
+  border-right: 1px solid gray;
+  padding: 1em;
+  color: blue;
+  height: 230px;
+  }
+
+aside {
+  float: right;
+  width: 25%;
+  padding: 1em;
+  color: blue;
+  height: 542px;
+}
+
+#kuva1 {
+  padding-left: 50px;
+  margin: 5px;
+}
+
+#kuva2 {
+  padding-left: 15px;
+}
