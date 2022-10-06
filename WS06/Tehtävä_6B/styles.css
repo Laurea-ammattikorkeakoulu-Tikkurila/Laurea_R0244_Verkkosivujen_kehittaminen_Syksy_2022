@@ -1,0 +1,139 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;
+    color: white;
+}
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 12px;
+    color: green;
+}
+
+div {
+    border-width: 2px;
+    border-style: dotted;
+}
+
+.Teksti{
+    width: 50px;
+    height: 50px;
+}
+
+ol {
+    list-style: lower-alpha;
+}
+
+ul {
+    list-style: square;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 100px;
+}
+
+
+#kuva1 {
+    padding-left: 50px;
+    margin: 5px;
+}
+
+#kuva2 {
+    padding-left: 15px;
+}
+
+#navi {
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#sectioni {
+    background-color: #fffd;
+}
+
+#headeri {
+    background-color: #ff592b;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    
+}
+#otsikko4{
+    font-size: 50px;
+}
+
+#headeri2 {
+    background-color: rgb(49, 49, 49);
+    padding: 2px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    height: 40px;
+}
+#nav2 {
+    float: left;
+    width: 30%;
+    height: 300px; 
+    background: #ccc;
+    padding: 20px;
+}
+
+#nav2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav2 ul li a{
+    text-decoration: none;
+    font-size: 25px;
+} 
+
+#nav2 ul li a:hover{
+    color: cornflowerblue;
+} 
+
+#otsikko3 {
+    color: black;
+}
+
+#teksti2{
+    color: black;
+}
+
+#teksti3{
+    color: black;
+}
+
+#teksti4{
+    color: black;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer{
+    background-color: #696969;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 65%;
+    background-color: #f1f1f1;
+    height: 300px; 
+}
