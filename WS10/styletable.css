@@ -1,0 +1,56 @@
+body {
+  background-color: DodgerBlue;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  text-align: left;
+  vertical-align: middle;
+}
+th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+tr:nth-child(odd) {
+  background-color: rgb(233, 240, 243);
+}
+tr:hover {
+  background-color: grey;
+}
+table {
+  font-family: verdana;
+  width: 50%;
+  margin: auto;
+}
+fieldset {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  font-family: verdana;
+  background-color: lightgrey;
+}
+input[type="submit"] {
+  font-family: verdana;
+  background-color: grey;
+  color: white;
+}
+input[type="submit"]:hover {
+  background-color: black;
+}
+
+legend {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+}
+#nav {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}

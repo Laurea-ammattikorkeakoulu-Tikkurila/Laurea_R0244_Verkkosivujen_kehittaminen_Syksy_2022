@@ -1,0 +1,47 @@
+#b-s {
+  width: 200px;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 10px 10px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#t-s-h {
+  width: 200px;
+  padding: 5px;
+  text-shadow: 2px 2px yellow;
+  text-align: center;
+  margin: auto;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+#t-s-p {
+  width: 400px;
+  padding: 5px;
+  text-shadow: 2px 2px lightblue;
+  text-align: center;
+  margin: auto;
+}
+nav {
+  text-align: center;
+  margin: auto;
+}
+a {
+  font-size: 40px;
+  color: lightblue;
+  padding: 5px;
+  text-decoration: none;
+  transition: 1s;
+}
+nav a:hover {
+  color: navy;
+  font-size: 20px;
+}
+@media only screen and (max-width: 799px) {
+  body {
+    /* body, a { jos halutaan myös linkit valkoisiksi */
+    background-color: black;
+    color: white;
+  }
+}
